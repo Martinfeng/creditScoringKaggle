@@ -1,0 +1,44 @@
+SVM test accurary rate:0.9328
+
+SVM rbf C=10; gamma=0.1968; test accuray rate: 0.93379
+
+Random Forrest
+
+ scaled input feature 
+
+n_estimators=200, min_samples_split=1, test ar:93.51
+
+no scaled 
+
+n_estimators=300, min_samples_split=1, test ar:93.32
+
+//======================
+Logistic Regression 
+
+Scaled 
+
+93.48
+
+//GradientBoostingClassifier
+
+no scaled
+92.48
+
+scaled
+92.55
+
+//Neural networks
+hidden=20
+93.7%
+
+from scipy.stats import itemfreq
+itemfreq(lbl)
+
+//=============
+randomforest
+clf = RandomForestClassifier(n_estimators=6000, max_depth=7,  min_samples_split=1, random_state=0)
+0.863557409081
+clf = RandomForestClassifier(n_estimators=6000, max_depth=8,  min_samples_split=1, random_state=0)
+0.863603809958
+clf = RandomForestClassifier(n_estimators=6000, max_depth=None,  min_samples_split=1, random_state=0)
+0.847084370278
